@@ -31,6 +31,7 @@ public class MobDropsHandler {
 		}
 		if ((event.getEntity() instanceof EntityDonkey)) {
 
+			
 			ItemStack stack = new ItemStack(ModItems.raw_donkey_meat, Reference.DONKEY_DROP_AMOUNT);
 			EntityItem drop = new EntityItem(event.getEntity().world, event.getEntity().posX, event.getEntity().posY,
 					event.getEntity().posZ, stack);

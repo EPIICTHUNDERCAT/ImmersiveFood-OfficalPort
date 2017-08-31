@@ -59,7 +59,7 @@ public class ModConfigHandler {
 		 * it creates more entities!)");
 		 * 
 		 */
-	
+
 		if (CONFIG.hasChanged()) {
 			CONFIG.save();
 		}

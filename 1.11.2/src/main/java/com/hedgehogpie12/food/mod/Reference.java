@@ -17,7 +17,7 @@ public class Reference {
 	public static int MULE_DROP_AMOUNT = 2;
 	public static int BAT_WING_DROP_AMOUNT = 2;
 	public static int SQUID_DROP_AMOUNT = 2;
-	//public static int PARROT_DROP_AMOUNT = 2; NOT IN 1.11.2!
+	// public static int PARROT_DROP_AMOUNT = 2; NOT IN 1.11.2!
 	public static int WOLF_DROP_AMOUNT = 2;
 	public static int OCELOT_DROP_AMOUNT = 2;
 	public static int HORSE_DROP_AMOUNT = 2;

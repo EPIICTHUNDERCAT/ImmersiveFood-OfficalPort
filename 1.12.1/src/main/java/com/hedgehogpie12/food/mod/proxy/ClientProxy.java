@@ -9,18 +9,18 @@ public class ClientProxy extends CommonProxy {
 
 	public void preInit(FMLPreInitializationEvent preEvent) {
 		super.preInit(preEvent);
-		
+
 	}
 
 	public void init(FMLInitializationEvent event) {
 		super.init(event);
-		
+
 	}
 
 	@Override
 	public void registerRenders(FMLInitializationEvent event) {
 		ModItems.registerRender(event);
-		
+
 	}
-	
+
 }

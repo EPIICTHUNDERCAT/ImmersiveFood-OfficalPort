@@ -25,8 +25,7 @@ public class MobDropsHandler {
 
 			event.getDrops().add(drop);
 		}
-		
-		
+
 		if ((event.getEntity() instanceof EntityBat)) {
 
 			ItemStack stack = new ItemStack(ModItems.raw_bat_meat, Reference.BAT_DROP_AMOUNT);

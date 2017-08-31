@@ -11,7 +11,6 @@ import net.minecraft.entity.passive.EntityHorse;
 import net.minecraft.entity.passive.EntityLlama;
 import net.minecraft.entity.passive.EntityMule;
 import net.minecraft.entity.passive.EntityOcelot;
-
 import net.minecraft.entity.passive.EntitySquid;
 import net.minecraft.entity.passive.EntityWolf;
 import net.minecraft.item.ItemStack;

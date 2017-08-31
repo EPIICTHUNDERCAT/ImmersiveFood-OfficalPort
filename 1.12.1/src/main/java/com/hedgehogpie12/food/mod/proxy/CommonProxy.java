@@ -24,7 +24,7 @@ public class CommonProxy {
 	private void register(FMLPreInitializationEvent preEvent) {
 		ModItems.register(preEvent);
 		MinecraftForge.EVENT_BUS.register(new MobDropsHandler());
-		
+
 		// MinecraftForge.EVENT_BUS.register(new REventHandler());
 
 	}

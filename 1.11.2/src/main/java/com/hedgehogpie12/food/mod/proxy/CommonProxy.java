@@ -17,14 +17,14 @@ public class CommonProxy {
 
 	public void init(FMLInitializationEvent event) {
 		registerRenders(event);
-		  ModConfigHandler.init();
-		  ModRecipes.init();
+		ModConfigHandler.init();
+		ModRecipes.init();
 	}
 
 	private void register(FMLPreInitializationEvent preEvent) {
 		ModItems.register(preEvent);
 		MinecraftForge.EVENT_BUS.register(new MobDropsHandler());
-		
+
 		// MinecraftForge.EVENT_BUS.register(new REventHandler());
 
 	}

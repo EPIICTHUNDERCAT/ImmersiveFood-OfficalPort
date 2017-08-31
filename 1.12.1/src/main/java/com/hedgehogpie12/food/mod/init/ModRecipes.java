@@ -1,6 +1,5 @@
  package com.hedgehogpie12.food.mod.init;
 
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 

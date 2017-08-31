@@ -1,18 +1,15 @@
 package com.hedgehogpie12.food.mod.init;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
-import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.RenderItem;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
 
@@ -23,12 +20,18 @@ public class ModItems {
 
 	public static Item carrot_soup = new ModFood("carrot_soup", 6, 7.2F, false);
 	public static Item potato_soup = new ModFood("potato_soup", 6, 7.2F, false);
-	//public static Item cooked_llama_meat = new ModFood("cooked_llama_meat", 8, 12.8F, true);
-	///public static Item raw_llama_meat = new ModFood("raw_llama_meat", 3, 1.8F, true);
-	//public static Item raw_donkey_meat = new ModFood("raw_donkey_meat", 3, 1.8F, true);
-	//public static Item cooked_donkey_meat = new ModFood("cooked_donkey_meat", 8, 12.8F, true);
-	//public static Item raw_mule_meat = new ModFood("raw_mule_meat", 3, 1.8F, true);
-	//public static Item cooked_mule_meat = new ModFood("cooked_mule_meat", 8, 12.8F, true);
+	// public static Item cooked_llama_meat = new ModFood("cooked_llama_meat",
+	// 8, 12.8F, true);
+	/// public static Item raw_llama_meat = new ModFood("raw_llama_meat", 3,
+	// 1.8F, true);
+	// public static Item raw_donkey_meat = new ModFood("raw_donkey_meat", 3,
+	// 1.8F, true);
+	// public static Item cooked_donkey_meat = new ModFood("cooked_donkey_meat",
+	// 8, 12.8F, true);
+	// public static Item raw_mule_meat = new ModFood("raw_mule_meat", 3, 1.8F,
+	// true);
+	// public static Item cooked_mule_meat = new ModFood("cooked_mule_meat", 8,
+	// 12.8F, true);
 	public static Item raw_bat_meat = new ModFood("raw_bat_meat", 3, 1.8F, true);
 	public static Item cooked_bat_meat = new ModFood("cooked_bat_meat", 8, 12.8F, true);
 	public static Item raw_ocelot_meat = new ModFood("raw_ocelot_meat", 3, 1.8F, true);
