@@ -9,7 +9,9 @@
    public static void init()
    {
      GameRegistry.addRecipe(new ItemStack(ModItems.carrot_soup), new Object[] { "CCC", "CCC", " B ", Character.valueOf('C'), Items.CARROT, Character.valueOf('B'), Items.BOWL });
-    GameRegistry.addRecipe(new ItemStack(ModItems.potato_soup), new Object[] { "PPP", "PPP", " B ", Character.valueOf('P'), Items.POTATO, Character.valueOf('B'), Items.BOWL });
+     GameRegistry.addShapelessRecipe(new ItemStack(ModItems.filled_squid_meat), new Object[] { "a", "b", Character.valueOf('a'), Items.FLINT, Character.valueOf('b'), ModItems.raw_squid_meat });
+     
+     GameRegistry.addRecipe(new ItemStack(ModItems.potato_soup), new Object[] { "PPP", "PPP", " B ", Character.valueOf('P'), Items.POTATO, Character.valueOf('B'), Items.BOWL });
     //Horse 1
      GameRegistry.addSmelting(new ItemStack(ModItems.raw_horse_meat), new ItemStack(ModItems.cooked_horse_meat), 0.35F);
      //Llama 2
@@ -21,7 +23,7 @@
      //Mule 5
      GameRegistry.addSmelting(new ItemStack(ModItems.raw_mule_meat), new ItemStack(ModItems.cooked_mule_meat), 0.35F);
      //Squid 6
-     GameRegistry.addSmelting(new ItemStack(ModItems.raw_squid_meat), new ItemStack(ModItems.cooked_squid_meat), 0.35F);
+     GameRegistry.addSmelting(new ItemStack(ModItems.filled_squid_meat), new ItemStack(ModItems.cooked_squid_meat), 0.35F);
      //Ocelot 7
      GameRegistry.addSmelting(new ItemStack(ModItems.raw_ocelot_meat), new ItemStack(ModItems.cooked_ocelot_meat), 0.35F);
      //Wolf 8

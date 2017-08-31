@@ -3,6 +3,7 @@ package com.hedgehogpie12.food.mod.proxy;
 import com.hedgehogpie12.food.mod.handler.MobDropsHandler;
 import com.hedgehogpie12.food.mod.init.ModConfigHandler;
 import com.hedgehogpie12.food.mod.init.ModItems;
+import com.hedgehogpie12.food.mod.init.ModRecipes;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -17,6 +18,7 @@ public class CommonProxy {
 	public void init(FMLInitializationEvent event) {
 		registerRenders(event);
 		ModConfigHandler.init();
+		ModRecipes.init();
 	}
 
 	private void register(FMLPreInitializationEvent preEvent) {

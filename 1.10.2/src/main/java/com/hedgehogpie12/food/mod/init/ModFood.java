@@ -1,16 +1,24 @@
-/*   */ package com.hedgehogpie12.food.mod.init;
-/*   */ 
-/*   */ import net.minecraft.item.ItemFood;
-/*   */ 
-/*   */ public class ModFood extends ItemFood
-/*   */ {
-/*   */   public ModFood(int amount, float saturation, boolean isWolfFood) {
-/* 8 */     super(amount, saturation, isWolfFood);
-/*   */   }
-/*   */ }
+ package com.hedgehogpie12.food.mod.init;
+ 
+ import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemFood;
+ 
+ public class ModFood extends ItemFood
+ {
+   public ModFood(String name, int amount, float saturation, boolean isWolfFood) {
+    super(amount, saturation, isWolfFood);
+    this.setRegistryName(name.toLowerCase());
+	this.setUnlocalizedName(name.toLowerCase());
+	this.setCreativeTab(CreativeTabs.FOOD);
+	addToItems(this);
+   }
+   private void addToItems(Item item) {
+
+		ModItems.items.add(item);
+			
+			
+		}
+ }
 
 
-/* Location:              /Users/user/Desktop/Decompilers/Deof/ImmersiveFood-1.0.0-deobf.jar!/com/hedgehogpie12/food/mod/init/ModFood.class
- * Java compiler version: 6 (50.0)
- * JD-Core Version:       0.7.1
- */

@@ -37,7 +37,7 @@ public class ModItems {
 	public static Item cooked_wolf_meat = new ModFood("cooked_wolf_meat", 8, 12.8F, true);
 	public static Item bat_wing = new ModFood("bat_wing", 1, 1.8F, true);
 	public static Item cooked_bat_wing = new ModFood("cooked_bat_wing", 3, 5.8F, true);
-	
+	public static Item filled_squid_meat = new ModFood("filled_squid_meat", 2, 2.8F, true);
 	public static Item raw_squid_meat = new ModFood("raw_squid_meat", 3, 1.8F, true);
 	public static Item cooked_squid_meat = new ModFood("cooked_squid_meat", 8, 12.8F, true);
 	public static Item raw_dragon_meat = new ModFood("raw_dragon_meat", 6, 11.8F, true);
