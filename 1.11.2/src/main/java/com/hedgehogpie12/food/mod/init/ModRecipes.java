@@ -6,10 +6,11 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModRecipes {
 	public static void init() {
-		GameRegistry.addRecipe(new ItemStack(ModItems.carrot_soup), new Object[] { "CCC", "CCC", " B ",
-				'C', Items.CARROT, 'B', Items.BOWL });
-		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.filled_squid_meat), new Object[] { "a", "b",
-				'a', Items.FLINT, 'b', ModItems.raw_squid_meat });
+		GameRegistry.addRecipe(new ItemStack(ModItems.carrot_soup),
+				new Object[] { "CCC", "CCC", " B ", 'C', Items.CARROT, 'B', Items.BOWL });
+
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.filled_squid_meat, 1),
+				new ItemStack(ModItems.raw_squid_meat), new ItemStack(Items.FLINT));
 
 		GameRegistry.addRecipe(new ItemStack(ModItems.potato_soup), new Object[] { "PPP", "PPP", " B ",
 				Character.valueOf('P'), Items.POTATO, Character.valueOf('B'), Items.BOWL });
